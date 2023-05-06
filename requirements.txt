@@ -1,0 +1,14 @@
+transformers
+langchain
+accelerate
+bitsandbytes
+chromadb
+beautifulsoup4
+openai
+tiktoken
+sentence_transformers
+wikipedia-api
+InstructorEmbedding
+gradio
+python-dotenv
+urllib3==1.26.6
