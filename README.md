@@ -6,6 +6,8 @@ For a batch run over different LLMs and embedding models, see the [Colab noteboo
 * If you're using OpenAI ada embeddings and/or GPT 3.5, then `cp template.env .env`, and edit `.env` to include your OpenAI API key
 * `python gradio_app.py`
 
+The meat of the code is in `WikipediaQA.py`.
+
 ## Results with different LLMs and embeddings
 I collected results on Q&A over various Wikipedia articles, using different text embedding models and LLMs.
 
