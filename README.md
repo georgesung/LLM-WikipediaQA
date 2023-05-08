@@ -4,7 +4,11 @@ Run [document Q&A](https://python.langchain.com/en/latest/use_cases/question_ans
 For the accompanying blog post, see [https://georgesung.github.io/ai/llm-qa-eval-wikipedia/](https://georgesung.github.io/ai/llm-qa-eval-wikipedia/)
 
 ## Instructions
-For a batch run over different LLMs and embedding models, see the [Colab notebook](https://colab.research.google.com/drive/1p0cKg6LWzfuHLAeK4x-YBYjc0VBW6XoC?usp=sharing)
+For a batch run over different LLMs and embedding models, you can run the notebook `WikipediaQA_batch_runs.ipynb` in your own compute instance, or run the same notebook on Colab:
+
+<a target="_blank" href="https://colab.research.google.com/github/georgesung/LLM-WikipediaQA/blob/main/WikipediaQA_batch_runs.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
 
 To run an interactive Gradio app, do the following:
 * `pip install -r requirements.txt`
