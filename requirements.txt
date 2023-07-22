@@ -7,7 +7,7 @@ beautifulsoup4
 openai
 tiktoken
 sentence_transformers
-wikipedia-api
+wikipedia-api==0.5.8
 InstructorEmbedding
 gradio
 python-dotenv
