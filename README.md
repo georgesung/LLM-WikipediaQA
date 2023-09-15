@@ -3,6 +3,14 @@ Run [document Q&A](https://python.langchain.com/en/latest/use_cases/question_ans
 
 For the accompanying blog post, see [https://georgesung.github.io/ai/llm-qa-eval-wikipedia/](https://georgesung.github.io/ai/llm-qa-eval-wikipedia/)
 
+## Architecture
+**Search and index Wikipedia article**
+
+![arch](https://georgesung.github.io/assets/img/wikiqa_search.svg)
+
+**Q&A on article**
+
+![arch](https://georgesung.github.io/assets/img/wikiqa_guardrail.svg)
 ## Instructions
 ### Batch runs
 For a batch run over different LLMs and embedding models, you can run the notebook `WikipediaQA_batch_runs.ipynb` in your own compute instance, or run the same notebook on Colab:
